@@ -1,0 +1,45 @@
+.env
+.env.local
+
+# derived build trees / outputs
+build/out/
+build/apktool/
+build/split/
+
+# downloaded engine candidates (re-downloadable)
+lib/candidates/
+
+# bulky research output
+research/analysis/
+research/leftovers/
+research/tools/
+
+# build attempts kept only as history
+apks/intermediate/
+
+# signing material and produced APKs
+apks/*.apk
+apks/*.apk.idsig
+keystore/
+
+# memory dumps and raw artifacts
+dump/
+
+# misc
+*.idsig
+*.pyc
+__pycache__/
+build/
+lib/engine/
+.freebuff
+
+# local mitmproxy env + wireguard keys/captured flows
+.venv/
+build/mitm/
+
+# downloaded apktool jar
+tools/
+scripts/dbg_fakeokul.py
+
+# original (proprietary) APKs, not redistributed
+apks/original/
