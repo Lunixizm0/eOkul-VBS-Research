@@ -52,7 +52,7 @@ are the exact runtime values - no behaviour change beyond no longer needing the 
 
 ## Related files
 
-- `dump/strings_dump.json` - the table itself
-- `dump/holders.txt`, `dump/holder_classes.json` - ghost class list
-- `dump/pairip_strings.txt` - raw strings seen in the VM payload
+- `dump/strings_dump.json` - the table itself (committed; reproduce input)
+- `dump/holders.txt`, `dump/holder_classes.json` - ghost class list (committed; inspection)
+- `dump/pairip_strings.txt` - raw strings seen in the VM payload (committed; inspection)
 - `scripts/dump/` - the frida/gadget scripts used while probing (historical)

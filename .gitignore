@@ -24,6 +24,10 @@ keystore/
 
 # memory dumps and raw artifacts
 dump/
+!dump/strings_dump.json
+!dump/holders.txt
+!dump/holder_classes.json
+!dump/pairip_strings.txt
 
 # misc
 *.idsig
